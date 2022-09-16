@@ -1,0 +1,56 @@
+.product{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    margin-left: 150px;
+    
+}
+
+.review{
+    border-bottom: 1px solid lightgray;
+    margin-right: 10px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.product-name{
+    color: blue;
+    font-weight: 400;
+    font-size: large;
+}
+.feature-name{
+    font-size: smaller;
+
+}
+
+.gap{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-regular{
+    background-color: goldenrod;
+    width: 150px;
+    height: 25px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.icon-color{
+    color: goldenrod;
+}
+
+.shopping-gap{
+ line-height: 5px;    
+}
+
+.newgap{
+    margin-top: 2%;
+}
+
+.product-feature{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
